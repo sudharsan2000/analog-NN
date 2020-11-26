@@ -1,0 +1,20 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 112 64 -128 -66
+TEXT -33 33 Left 3 NEURON
+WINDOW 0 0 -72 Bottom 2
+PIN -128 -16 LEFT 8
+PINATTR PinName Expected
+PINATTR SpiceOrder 1
+PIN -128 16 LEFT 8
+PINATTR PinName Input
+PINATTR SpiceOrder 2
+PIN -128 -48 LEFT 5
+PINATTR PinName Vcc
+PINATTR SpiceOrder 3
+PIN -128 48 LEFT 5
+PINATTR PinName Vee
+PINATTR SpiceOrder 4
+PIN 112 -32 RIGHT 8
+PINATTR PinName Result
+PINATTR SpiceOrder 5

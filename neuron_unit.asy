@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -88 80 88
+TEXT 40 67 VLeft 2 Neuron
+TEXT 63 67 VLeft 2 Unit
+WINDOW 0 8 -88 Bottom 2
+PIN -64 -64 LEFT 8
+PINATTR PinName adjust
+PINATTR SpiceOrder 1
+PIN -64 32 LEFT 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 2
+PIN -64 64 LEFT 8
+PINATTR PinName Vee
+PINATTR SpiceOrder 3
+PIN -64 -32 LEFT 8
+PINATTR PinName x1
+PINATTR SpiceOrder 4
+PIN -64 0 LEFT 8
+PINATTR PinName x2
+PINATTR SpiceOrder 5
+PIN 80 -64 RIGHT 8
+PINATTR PinName y
+PINATTR SpiceOrder 6
